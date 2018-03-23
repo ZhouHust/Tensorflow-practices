@@ -40,6 +40,7 @@ train = optimizer.minimize(loss)
 
 sess =tf.Session()
 init = tf.global_variables_initializer()
+
 sess.run(init)
 
 loss_list = []
